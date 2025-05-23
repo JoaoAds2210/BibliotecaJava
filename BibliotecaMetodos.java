@@ -74,13 +74,8 @@ public class BibliotecaMetodos {
 	    
 	    System.out.println("Livro cadastrado com sucesso.");
 	    
-	    for (int i = 0; i < tituloLivro.size(); i++) {
-	    	System.out.println("Livro: " + tituloLivro.get(i));
-	    }
-	    
-	    for (int i = 0; i < autorLivro.size(); i++) {
-	    	System.out.println("Autor: " + autorLivro.get(i));
-	    }
+	    System.out.println("Livro: " + tituloLivro);
+	    System.out.println("Autor: "  + autorLivro);
 	}
 	
 	public static void pesquisarLivroPorTitulo (Scanner sc, ArrayList <String> tituloLivro, ArrayList <String> autorLivro) {
